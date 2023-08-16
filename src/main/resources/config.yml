@@ -1,0 +1,6 @@
+Range: 3 #The maximum range that items will stack together in
+Dont-Merge:
+  - ""
+Denied-Worlds: #worlds that will not allow any item to stack
+  - "world"
+No-Permission: "&cYou do not have the permission to use this command!"

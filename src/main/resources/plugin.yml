@@ -1,0 +1,9 @@
+name: Neppixel
+author: birajrai
+version: 1.0
+website: https://birajrai.github.io/
+description: A Minecraft Plugin
+main: net.neppixel.spigot.Main
+
+commands:
+  itemstacker:

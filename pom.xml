@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.neppixel</groupId>
+    <artifactId>Neppixel</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>bukkit</artifactId>
+            <version>1.13.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/bukkit-1.13.1-R0.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>me.clip.placeholderapi</groupId>
+            <artifactId>Placeholderapi</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/PlaceholderAPI.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>net.md-5.bungee</groupId>
+            <artifactId>BungeeCord</artifactId>
+            <version>1.20.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/BungeeCord.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>lombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/lombok.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>
